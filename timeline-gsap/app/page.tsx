@@ -64,7 +64,7 @@ export default function Home() {
       <section className="home grid gap-5 grid-cols-1">
 
         <div className="max-w-7xl">
-          <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center" ref={titleRef}>Welcome to <span className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white">nicanico's</span> short component workouts <span className="underline decoration-sky-500">(and animations)</span></h1>
+          <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center" ref={titleRef}>Welcome to <span className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white">nicanico</span> short component workouts <span className="underline decoration-sky-500">(and animations)</span></h1>
           <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400" ref={descriptionRef}>Here are small lines of code using
             <code className="font-mono font-medium text-sky-500 dark:text-sky-400"> Next.js, Typescript</code> and some <code className="font-mono font-medium text-sky-500 ">libraries (GSAP, Framer Motion, etc)</code>, feel free to enjoy and give feedback on my learning
           </p>
